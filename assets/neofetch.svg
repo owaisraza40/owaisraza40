@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="Terminal style profile card for Owais Raza">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',Menlo,monospace; font-size: 15px; }
+    .logo { fill: url(#ink); font-size: 17px; white-space: pre; }
+    .key { fill: #7aa2f7; font-weight: 700; }
+    .val { fill: #c0caf5; }
+    .dim { fill: #565f89; }
+    .title { fill: #bb9af7; font-weight: 700; }
+    .row { opacity: 0; animation: in 0.5s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+  </style>
+  <rect x="1" y="1" width="898" height="398" rx="12" fill="#1a1b27" stroke="#3b4261"/>
+  <path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v30H1z" fill="#16161e"/>
+  <circle cx="26" cy="22" r="6" fill="#f7768e"/>
+  <circle cx="48" cy="22" r="6" fill="#e0af68"/>
+  <circle cx="70" cy="22" r="6" fill="#9ece6a"/>
+  <text x="450" y="27" text-anchor="middle" class="mono dim" font-size="13">owais@github: ~</text>
+
+  <text x="28" y="76" class="mono"><tspan class="key">$</tspan><tspan class="val"> neofetch</tspan></text>
+
+  <g class="mono logo" xml:space="preserve">
+    <text x="30" y="128" class="row" style="animation-delay:.1s"> ██████╗ ██████╗ </text>
+    <text x="30" y="150" class="row" style="animation-delay:.2s">██╔═══██╗██╔══██╗</text>
+    <text x="30" y="172" class="row" style="animation-delay:.3s">██║   ██║██████╔╝</text>
+    <text x="30" y="194" class="row" style="animation-delay:.4s">██║   ██║██╔══██╗</text>
+    <text x="30" y="216" class="row" style="animation-delay:.5s">╚██████╔╝██║  ██║</text>
+    <text x="30" y="238" class="row" style="animation-delay:.6s"> ╚═════╝ ╚═╝  ╚═╝</text>
+  </g>
+
+  <g class="mono">
+    <text x="330" y="108" class="row title" style="animation-delay:.15s">owais<tspan class="dim">@</tspan>github</text>
+    <text x="330" y="124" class="row dim" style="animation-delay:.2s">─────────────────────────────</text>
+    <text x="330" y="148" class="row" style="animation-delay:.3s"><tspan class="key">Role</tspan><tspan class="dim">       </tspan><tspan class="val">Data Science student</tspan></text>
+    <text x="330" y="170" class="row" style="animation-delay:.4s"><tspan class="key">University</tspan><tspan class="dim"> </tspan><tspan class="val">Air University</tspan></text>
+    <text x="330" y="192" class="row" style="animation-delay:.5s"><tspan class="key">Degree</tspan><tspan class="dim">     </tspan><tspan class="val">BS Data Science</tspan></text>
+    <text x="330" y="214" class="row" style="animation-delay:.6s"><tspan class="key">Location</tspan><tspan class="dim">   </tspan><tspan class="val">Pakistan</tspan></text>
+    <text x="330" y="236" class="row" style="animation-delay:.7s"><tspan class="key">Languages</tspan><tspan class="dim">  </tspan><tspan class="val">C++, Python, C#, JavaScript</tspan></text>
+    <text x="330" y="258" class="row" style="animation-delay:.8s"><tspan class="key">Building</tspan><tspan class="dim">   </tspan><tspan class="val">Flux, AeroNexus</tspan></text>
+    <text x="330" y="280" class="row" style="animation-delay:.9s"><tspan class="key">Coursework</tspan><tspan class="dim"> </tspan><tspan class="val">Data Science, NLP, Networks</tspan></text>
+    <text x="330" y="302" class="row" style="animation-delay:1s"><tspan class="key">Motto</tspan><tspan class="dim">      </tspan><tspan class="val">Long journeys, steady progress</tspan></text>
+  </g>
+
+  <g class="row" style="animation-delay:1.2s">
+    <rect x="330" y="326" width="36" height="18" fill="#7aa2f7"/>
+    <rect x="366" y="326" width="36" height="18" fill="#bb9af7"/>
+    <rect x="402" y="326" width="36" height="18" fill="#9d7cd8"/>
+    <rect x="438" y="326" width="36" height="18" fill="#f7768e"/>
+    <rect x="474" y="326" width="36" height="18" fill="#3d59a1"/>
+    <rect x="510" y="326" width="36" height="18" fill="#565f89"/>
+    <rect x="546" y="326" width="36" height="18" fill="#a9b1d6"/>
+    <rect x="582" y="326" width="36" height="18" fill="#c0caf5"/>
+  </g>
+</svg>
